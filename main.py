@@ -27,6 +27,7 @@ origins = [
     "https://canvas-gpt-2wltar9k0-st2-ev.vercel.app",
     "http://127.0.0.1:5173",
     "https://canvas-gpt-f-delta.vercel.app",
+    "https://coursemind-dev.vercel.app"
 ]
 
 app.add_middleware(
