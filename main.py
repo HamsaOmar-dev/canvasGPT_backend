@@ -99,8 +99,9 @@ def generate_prompt(context, question):
     return f"""context: {context}
 question: {question}
 
-based on the context answer the question, if not mention that the context is irrelevant
+based on the context answer the question
 """
+# based on the context answer the question, if not mention that the context is irrelevant
 
 def conditional_insert(messages, history):
     if len(history) != 0:
