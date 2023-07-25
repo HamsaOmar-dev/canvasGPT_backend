@@ -99,8 +99,11 @@ def generate_prompt(context, question):
     return f"""context: {context}
 question: {question}
 
-based on the context answer the question, if not mention that the context is irrelevant
+As a helpful tutor, I'll do my best to answer your question based on the class data I have access to. 
+If you think providing more context would help, feel free to provide additional information.
 """
+
+# based on the context answer the question, if not mention that the context is irrelevant
 
 def conditional_insert(messages, history):
     if len(history) != 0:
