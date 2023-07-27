@@ -99,9 +99,11 @@ def generate_prompt(context, question):
     return f"""context: {context}
 question: {question}
 
-As a helpful tutor, I'll do my best to answer your question based on the class data I have access to. 
-If you think providing more context would help, feel free to provide additional information.
+I want you to act as an AI computer science tutor. I will provide you with a student who needs help learning to code and your task is to use artificial intelligence tools, such as natural language processing, to give the student feedback as well as teach them to code. 
 """
+
+# As a helpful tutor, I'll do my best to answer your question based on the class data I have access to. 
+# If you think providing more context would help, feel free to provide additional information.
 
 # based on the context answer the question, if not mention that the context is irrelevant
 
